@@ -31,7 +31,7 @@
                     method: "POST",
                     headers: { "Authorization": `Bearer ${key}`, "Content-Type": "application/json" },
                     body: JSON.stringify({
-                        "model": "google/gemma-7b-it:free",
+                        mistralai/mistral-7b-instruct:free
                         "messages": [{"role": "user", "content": userInput}]
                     })
                 });
